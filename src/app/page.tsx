@@ -81,6 +81,16 @@ export default function Home() {
       school: "SENA",
       degree: "Técnico Programación de Software",
       period: "2016 - 2017"
+    },
+    {
+      school: "Dev Senior",
+      degree: "Enterprise Full Stack with Spring Boot 4 and Angular 21 (Curso Corto)",
+      period: "2026"
+    },
+    {
+      school: "Udemy",
+      degree: "n8n + MCP: Automatización y agentes de IA inteligentes",
+      period: "2026"
     }
   ];
 
