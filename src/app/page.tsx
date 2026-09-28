@@ -230,9 +230,11 @@ export default function Home() {
               </div>
               <div>
                 <h4 className="text-sm font-semibold text-zinc-300 uppercase tracking-wider mb-3">IA & Automatización</h4>
-                <div className="flex flex-wrap gap-2">
-                  {["Selenium", "Integración APIs IA", "Chatbots"].map(skill => (
-                    <span key={skill} className="bg-zinc-900 border border-zinc-800 text-zinc-300 px-4 py-2 rounded-lg text-sm">{skill}</span>
+                <div className="flex flex-col gap-2">
+                  {["Selenium", "Integración de APIs de IA", "Automatización de tareas asistidas por IA", "Generación de contenido y procesamiento de datos con IA"].map(skill => (
+                    <span key={skill} className="bg-zinc-900 border border-zinc-800 text-zinc-300 px-4 py-2 rounded-lg text-sm flex items-center gap-2">
+                      <span className="w-1.5 h-1.5 bg-cyan-500 rounded-full"></span> {skill}
+                    </span>
                   ))}
                 </div>
               </div>
