@@ -44,6 +44,20 @@ export default function Home() {
       tags: ["HTML", "Python", "Flask"],
       url: "https://github.com/Lorenara04/POS-LA-COSMETIQUERA-DE-GABI",
       icon: <Code2 className="w-6 h-6 text-pink-400" />
+    },
+    {
+      name: "San Roque MB",
+      desc: "Proyecto web (En desarrollo).",
+      tags: ["HTML", "En desarrollo"],
+      url: "https://github.com/Lorenara04/SAN-ROQUE-MB",
+      icon: <Code2 className="w-6 h-6 text-orange-400" />
+    },
+    {
+      name: "Spa de Uñas",
+      desc: "Sistema para gestión de Spa de Uñas (En desarrollo).",
+      tags: ["Python", "En desarrollo"],
+      url: "https://github.com/Lorenara04/Spa-De-u-as",
+      icon: <Terminal className="w-6 h-6 text-green-400" />
     }
   ];
 
