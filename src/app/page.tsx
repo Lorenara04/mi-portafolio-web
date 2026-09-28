@@ -207,7 +207,7 @@ export default function Home() {
               <div>
                 <h4 className="text-sm font-semibold text-zinc-300 uppercase tracking-wider mb-3">Backend</h4>
                 <div className="flex flex-wrap gap-2">
-                  {["Python (Django)", "Node.js", "PHP"].map(skill => (
+                  {["Python (Django)", "Node.js", "PHP", "X++"].map(skill => (
                     <span key={skill} className="bg-zinc-900 border border-zinc-800 text-zinc-300 px-4 py-2 rounded-lg text-sm">{skill}</span>
                   ))}
                 </div>
