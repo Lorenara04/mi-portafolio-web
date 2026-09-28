@@ -18,13 +18,6 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 export default function Home() {
   const projects = [
     {
-      name: "Vicer Support",
-      desc: "Portal corporativo y de soporte técnico desarrollado durante mis prácticas profesionales en Active Process.",
-      tags: ["WordPress", "HTML", "CSS", "JavaScript"],
-      url: "https://staging2.vicer.support/?lang=es",
-      icon: <Briefcase className="w-6 h-6 text-yellow-400" />
-    },
-    {
       name: "K3 Home Style",
       desc: "E-commerce para diseño de interiores. Construido con React, TypeScript y Vite.",
       tags: ["React", "TypeScript", "Vite", "CSS"],
@@ -44,6 +37,13 @@ export default function Home() {
       tags: ["HTML", "Python", "Flask"],
       url: "https://github.com/Lorenara04/POS-LA-COSMETIQUERA-DE-GABI",
       icon: <Code2 className="w-6 h-6 text-pink-400" />
+    },
+    {
+      name: "Vicer Support",
+      desc: "Portal corporativo y de soporte técnico desarrollado durante mis prácticas profesionales en Active Process.",
+      tags: ["WordPress", "HTML", "CSS", "JavaScript"],
+      url: "https://staging2.vicer.support/?lang=es",
+      icon: <Briefcase className="w-6 h-6 text-yellow-400" />
     },
     {
       name: "San Roque MB",
