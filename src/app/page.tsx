@@ -140,7 +140,7 @@ export default function Home() {
               Hola, soy <span className="text-cyan-400 neon-text block mt-2">Lorena Rodríguez Ramos</span>
             </h1>
             <p className="text-lg md:text-xl text-zinc-400 max-w-2xl mb-8 leading-relaxed mx-auto md:mx-0">
-              Ingeniera de software en formación con experiencia en desarrollo web, automatización de procesos e integración de Inteligencia Artificial. Me enfoco en soluciones prácticas y eficientes.
+              Ingeniera de software cursando su último trimestre de carrera, con experiencia en desarrollo web, automatización de procesos e integración de Inteligencia Artificial. Me enfoco en soluciones prácticas y eficientes.
             </p>
             
             <div className="flex flex-wrap items-center justify-center md:justify-start gap-4 mb-8">
