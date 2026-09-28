@@ -63,6 +63,16 @@ export default function Home() {
 
   const experience = [
     {
+      company: "Vicer Solutions",
+      role: "Desarrolladora Junior (Prácticas)",
+      period: "Jul 2026 – Actualidad",
+      points: [
+        "Desarrollo y estructuración del portal corporativo y de soporte técnico.",
+        "Implementación de funcionalidades full stack y resolución de incidencias.",
+        "Colaboración en proyectos tecnológicos para optimizar la experiencia del usuario."
+      ]
+    },
+    {
       company: "Active Process",
       role: "Ingeniera de Software Junior (Prácticas)",
       period: "Jun 2025 – Dic 2025",
