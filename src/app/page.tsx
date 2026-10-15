@@ -69,7 +69,8 @@ export default function Home() {
       points: [
         "Desarrollo y estructuración del portal corporativo y de soporte técnico.",
         "Implementación de funcionalidades full stack y resolución de incidencias.",
-        "Colaboración en proyectos tecnológicos para optimizar la experiencia del usuario."
+        "Levantamiento de requerimientos, análisis de información y elaboración de informes técnicos.",
+        "Gestión de entregables bajo metodologías ágiles (Scrum y Kanban)."
       ]
     },
     {
@@ -80,7 +81,7 @@ export default function Home() {
         "Desarrollo de aplicaciones web full stack utilizando JavaScript, Node.js y PHP.",
         "Implementación de funcionalidades backend y frontend orientadas a soluciones empresariales.",
         "Automatización de procesos mediante bots e integración con Google Sheets.",
-        "Gestión y optimización de bases de datos SQL."
+        "Gestión y optimización de bases de datos SQL y documentación técnica de procesos."
       ]
     },
     {
@@ -140,7 +141,7 @@ export default function Home() {
               Hola, soy <span className="text-cyan-400 neon-text block mt-2">Lorena Rodríguez Ramos</span>
             </h1>
             <p className="text-lg md:text-xl text-zinc-400 max-w-2xl mb-8 leading-relaxed mx-auto md:mx-0">
-              Ingeniera de software cursando su último trimestre de carrera, con experiencia en desarrollo web, automatización de procesos e integración de Inteligencia Artificial. Me enfoco en soluciones prácticas y eficientes.
+              Ingeniera de software cursando su último trimestre de carrera, con experiencia en desarrollo web full-stack, automatización de procesos, levantamiento de requerimientos y metodologías ágiles (Scrum/Kanban). Me enfoco en soluciones prácticas y eficientes.
             </p>
             
             <div className="flex flex-wrap items-center justify-center md:justify-start gap-4 mb-8">
