@@ -239,7 +239,7 @@ export default function Home() {
               <div>
                 <h4 className="text-sm font-semibold text-zinc-300 uppercase tracking-wider mb-3">Frontend</h4>
                 <div className="flex flex-wrap gap-2">
-                  {["HTML", "CSS", "JavaScript", "React"].map(skill => (
+                  {["HTML", "CSS", "JavaScript", "React", "Vue.js"].map(skill => (
                     <span key={skill} className="bg-zinc-900 border border-zinc-800 text-zinc-300 px-4 py-2 rounded-lg text-sm">{skill}</span>
                   ))}
                 </div>
@@ -259,6 +259,14 @@ export default function Home() {
                     <span key={skill} className="bg-zinc-900 border border-zinc-800 text-zinc-300 px-4 py-2 rounded-lg text-sm flex items-center gap-2">
                       <span className="w-1.5 h-1.5 bg-cyan-500 rounded-full"></span> {skill}
                     </span>
+                  ))}
+                </div>
+              </div>
+              <div>
+                <h4 className="text-sm font-semibold text-zinc-300 uppercase tracking-wider mb-3">Metodologías & Gestión</h4>
+                <div className="flex flex-wrap gap-2">
+                  {["Scrum", "Kanban", "Levantamiento de Requerimientos", "Elaboración de Informes", "Documentación de Procesos"].map(skill => (
+                    <span key={skill} className="bg-zinc-900 border border-zinc-800 text-zinc-300 px-4 py-2 rounded-lg text-sm">{skill}</span>
                   ))}
                 </div>
               </div>
