@@ -75,7 +75,7 @@ export default function Home() {
     {
       company: "Active Process",
       role: "Ingeniera de Software Junior (Prácticas)",
-      period: "Jun 2025 – Dic 2025",
+      period: "Jun 2025 – May 2026",
       points: [
         "Desarrollo de aplicaciones web full stack utilizando JavaScript, Node.js y PHP.",
         "Implementación de funcionalidades backend y frontend orientadas a soluciones empresariales.",
